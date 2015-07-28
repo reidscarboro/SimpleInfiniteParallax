@@ -1,5 +1,5 @@
 # SimpleInfiniteParallax
-Simple infinite scrolling parallax for Unity2D
+Simple infinite scrolling parallax for Unity2D with moving camera
 
 This is a super simple script that will handle infinite scrolling parallax backgrounds for Unity2D with a moving orthographic camera. It requires a single tileable sprite. Please bear in mind that I am a total Unity novice, so it is very possible/likely there is a better way to do all of this, this is just my solution.
 
