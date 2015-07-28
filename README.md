@@ -8,8 +8,8 @@ In short, the script will take an object with a SpriteRenderer, create 4 instanc
 Demo: https://youtu.be/DSN6_Ez38-A
 
 Usage:
-* Create an empty object, attach the SimpleInfiniteParallax.cs script.
 * Create an object with a SpriteRenderer that is your background, ensure it is larger than your camera viewport.
+* Create an empty object, attach the SimpleInfiniteParallax.cs script.
 * Set your camera as the "parent."
 * Set your newly created object with SpriteRenderer as "layerSprite."
 * Set the depth.
