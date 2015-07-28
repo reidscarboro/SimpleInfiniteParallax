@@ -24,19 +24,29 @@ using System.Collections;
 
 public class SimpleInfiniteParallax : MonoBehaviour {
 				
-	public Transform parent;		//generally camera
-	public float depth;				//generally 0-1. <0 moves as foreground
-	public GameObject layerSprite;	//object with SpriteRenderer to be drawn, ensure this is larger than the camera viewport
+	//generally camera
+	public Transform parent;
 
-	private Vector2 size;			//size of the layerSprite
-	private Vector2 center;			//position of parent, and the meeting of the 4 corners of our 4 layerSprites
+	//generally 0-1. <0 moves as foreground
+	public float depth;
 
-	private GameObject obj1;		//our 4 layerSprites
+	//object with SpriteRenderer to be drawn, ensure this is larger than the camera viewport
+	public GameObject layerSprite;
+
+	//size of the layerSprite
+	private Vector2 size;
+
+	//position of parent, and the meeting of the 4 corners of our 4 layerSprites
+	private Vector2 center;
+
+	//our 4 layerSprites
+	private GameObject obj1;
 	private GameObject obj2;
 	private GameObject obj3;
 	private GameObject obj4;
 
-	private Vector2 obj1p;			//our 4 layerSprite positions
+	//our 4 layerSprite positions
+	private Vector2 obj1p;
 	private Vector2 obj2p;
 	private Vector2 obj3p;
 	private Vector2 obj4p;
