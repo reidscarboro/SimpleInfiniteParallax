@@ -13,10 +13,10 @@ Usage:
 * Set your camera as the "parent."
 * Set your newly created object with SpriteRenderer as "layerSprite."
 * Set the depth.
-*   < 0   :layerSprite moves as foreground
-*   0     :layerSprite remains stationary
-*   0-1   :Standard parallax behavior
-*   1     :layerSprite moves perfectly with "parent" object. (Same as setting background as child of camera)
-*   > 1   :layerSprite appears to move faster than everything else, probably don't use this one...
+    *   < 0   :layerSprite moves as foreground
+    *   0     :layerSprite remains stationary
+    *   0-1   :Standard parallax behavior
+    *   1     :layerSprite moves perfectly with "parent" object. (Same as setting background as child of camera)
+    *   > 1   :layerSprite appears to move faster than everything else, probably don't use this one...
 
 Do let me know if you have any questions/suggestions!
